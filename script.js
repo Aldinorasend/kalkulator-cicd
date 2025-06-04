@@ -81,7 +81,7 @@ function calculateResult() {
 }
 
 
-
+g
 if (typeof module !== 'undefined' && module.exports) {
 
     module.exports = {
