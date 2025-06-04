@@ -115,7 +115,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./ # Direktori yang akan di-deploy (root untuk kalkulator ini)
-          # publish_branch: gh-pages # Default branch tujuan adalah gh-pags
+          # publish_branch: gh-pages # Default branch tujuan adalah gh-pages
           # user_name: 'github-actions[bot]'
           # user_email: 'github-actions[bot]@users.noreply.github.com'
           # commit_message: 'Deploy kalkulator ke GitHub Pages'
