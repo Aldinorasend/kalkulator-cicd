@@ -113,7 +113,7 @@ jobs:
       - name: 🌍 Deploy ke GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKN }}
           publish_dir: ./ # Direktori yang akan di-deploy (root untuk kalkulator ini)
           # publish_branch: gh-pages # Default branch tujuan adalah gh-pages
           # user_name: 'github-actions[bot]'
