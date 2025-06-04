@@ -80,13 +80,7 @@ function calculateResult() {
 
 }
 
-function clearDisplay() {
 
-    display.value = '';
-
-    let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
-
-}
 // Ekspor fungsi untuk pengujian jika menggunakan modul Node.js (opsional untuk setup sederhana ini)
 
 if (typeof module !== 'undefined' && module.exports) {
